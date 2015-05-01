@@ -1,0 +1,15 @@
+
+For scheduling: 
+pickup() and getElevator() are for scheduling an elevator to pick up a client. 
+There are four situations when calculating the smallest the distancebetween the client and elevator
+to find the best solution to pick up client: getElevator(int currentFloor, int direction) 
+
+The Elevator class has wrapped all information and modification of the elevator's status. 
+Elevator has three variables:int id,int curFloor, ArrayList<Integer> goalFloors.
+And following functions:
+getID(), getDirection(), getCurFloor() for safely get elevator's information. 
+Each elevator has step() to time-stepping. 
+
+
+
+
