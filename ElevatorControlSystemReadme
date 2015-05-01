@@ -11,5 +11,3 @@ getID(), getDirection(), getCurFloor() for safely get elevator's information.
 Each elevator has step() to time-stepping. 
 
 
-
-
